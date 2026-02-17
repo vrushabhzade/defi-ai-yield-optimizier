@@ -57,9 +57,9 @@ Follow this simple flow to get the most out of the platform:
 - **Live formatting** of addresses and balances.
 
 ### 🌉 Cross-Chain Bridge
-- **Integrated Relay Widget** for seamless asset transfers.
-- **Bridge to BNB Chain** from Ethereum, Arbitrum, Optimism, etc.
-- **Instant yield onboarding** after bridging.
+- **Powered by Relay**: Seamless, high-speed bridging infrastructure.
+- **Instant Settlement**: Transfer funds from Ethereum, Arbitrum, Base, and Optimism to BNB Chain in seconds.
+- **One-Click Onboarding**: Bridge and deposit into yield farms in a single flow.
 
 ### 🤖 AI Powered
 - **Google Gemini Integration** for smart yield analysis.

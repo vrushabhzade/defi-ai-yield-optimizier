@@ -1,0 +1,92 @@
+/* AI Recommendations Section Enhancements */
+
+.ai-summary {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.ai-recommendation {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.ai-recommendation:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.ai-reasoning {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.ai-footer {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--glass-border);
+}
+
+.ai-risk-note {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.ai-diversification {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+}
+
+.ai-diversification strong {
+    color: var(--color-electric-blue);
+    font-weight: 700;
+}
+
+.ai-stat-value.risk-low {
+    color: var(--color-success);
+}
+
+.ai-stat-value.risk-medium {
+    color: var(--color-warning);
+}
+
+.ai-stat-value.risk-high {
+    color: var(--color-danger);
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--gradient-primary);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+    transform: translateY(-2px);
+}
+
+.btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-primary .spinning {
+    animation: spin 1s linear infinite;
+}

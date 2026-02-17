@@ -56,6 +56,11 @@ Follow this simple flow to get the most out of the platform:
 - **Multi-wallet support** (MetaMask, WalletConnect).
 - **Live formatting** of addresses and balances.
 
+### 🌉 Cross-Chain Bridge
+- **Integrated Relay Widget** for seamless asset transfers.
+- **Bridge to BNB Chain** from Ethereum, Arbitrum, Optimism, etc.
+- **Instant yield onboarding** after bridging.
+
 ### 🤖 AI Powered
 - **Google Gemini Integration** for smart yield analysis.
 - **Risk Assessment** with confidence scores.

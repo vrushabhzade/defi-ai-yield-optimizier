@@ -20,6 +20,7 @@ import { DeFiMethods } from './components/DeFiMethods'
 import { Exchange } from './components/Exchange'
 import { NOSPage } from './components/NOS'
 import { Pricing } from './components/Pricing'
+import { Bridge } from './components/Bridge'
 import './App.css'
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
             <Link to="/methods" className={location.pathname === '/methods' ? 'active' : ''}>DeFi Methods</Link>
             <Link to="/exchange" className={location.pathname === '/exchange' ? 'active' : ''}>Exchange</Link>
+            <Link to="/bridge" className={location.pathname === '/bridge' ? 'active' : ''}>Bridge</Link>
             <Link to="/nos" className={location.pathname === '/nos' ? 'active' : ''}>NOS</Link>
             <Link to="/pricing" className={location.pathname === '/pricing' ? 'active' : ''}>Pricing</Link>
           </div>
@@ -55,6 +57,11 @@ function App() {
 
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
+          <Route path="/bridge" element={
+            <PageWrapper>
+              <Bridge />
+            </PageWrapper>
+          } />
           <Route path="/" element={
             /* Hero & Dashboard wrapper */
             <PageWrapper>

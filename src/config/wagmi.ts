@@ -9,7 +9,7 @@ const walletConnectProjectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID || 
 export const config = createConfig({
     chains: [bsc, bscTestnet],
     connectors: [
-        injected({ target: 'metaMask' }),
+        injected(),
         ...(walletConnectProjectId ? [
             walletConnect({
                 projectId: walletConnectProjectId,

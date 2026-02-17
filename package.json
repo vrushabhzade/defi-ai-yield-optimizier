@@ -12,6 +12,9 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.74.0",
     "@google/generative-ai": "^0.24.1",
+    "@metamask/sdk-analytics": "^0.0.5",
+    "@relayprotocol/relay-kit-hooks": "^3.0.7",
+    "@relayprotocol/relay-kit-ui": "^7.1.1",
     "@tanstack/react-query": "^5.90.21",
     "framer-motion": "^12.34.0",
     "lucide-react": "^0.564.0",
@@ -19,8 +22,8 @@
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0",
     "recharts": "^3.7.0",
-    "viem": "^2.46.1",
-    "wagmi": "^3.4.4"
+    "viem": "^2.21.0",
+    "wagmi": "^2.14.12"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
